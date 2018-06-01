@@ -5,7 +5,9 @@
     nav button { 
         display:none; 
     }  
-    
+    nav ul.hide {
+        display: block;
+    }
     section.forecast { 
         display: block
     }  
