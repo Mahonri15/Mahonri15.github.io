@@ -5,24 +5,43 @@
     nav button { 
         display:none; 
     }  
+    
     nav ul.hide {
         display: block;
     }
+    
     section.forecast { 
-        display: block
+        display: block;
+        text-align: center;
+        
     }  
     
     nav ul li{
         display: inline-block;
     }
+      
+    .weather-summary{
+        font-size: 20px;
+        float: center;
+        
+    }
+    
+    .forecast{
+        text-align: center;
+        padding-top: 1.5rem;
+    }
     
     main article img {
-        width: 320px;
+        width: 35%;
         float: right;
+        margin: .25rem;
    }
     
+   
     main figure img {
-        width: 500px;
-        float: left;
+        width: 85%;
+        height: 40%;
+        float: center;
+        margin: 3.5em
    }
  }

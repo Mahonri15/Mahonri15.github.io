@@ -14,9 +14,13 @@
     
  <body>
   <header>
+    <div id="headerPic">
       <img src="images/sunandcloud1.jpg" alt="cloud and sun logo">
+    </div>
+    <div id="handm">
       <h1>Four Season Weather</h1>
       <div class="subheading">We got the latest weather forecast just for you!</div>
+    </div>
   </header>
   <nav>
     <button class="hamburger" onclick="toggleHam()">&#9776;</button>
@@ -43,28 +47,26 @@
   </nav>
   <main>
     <h2>Four Season Weather</h2>
-    <div class="weather">
+    <div class="weatherClass">
     <figure>
-       <img src="images/franklin-original.jpeg" alt="Sunny in the valley" sizes="50vw" srcset="images/franklin-small.jpeg 400w, images/franklin-medium.jpeg 800w, images/franklin-large.jpeg 1200w">
+       <img src="images/franklin-default.jpeg" alt="Sunny in the valley" sizes="50vw" srcset="images/franklin-small.jpeg 400w, images/franklin-medium.jpeg 800w, images/franklin-large.jpeg 1200w, ">
     </figure>
     <section class="weather-summary">
-      <h3>Weather Summary</h3>    
+      <h3>Weather Summary</h3>
       <div class="highlow">
         <p>High: 76°F</p>  
-        <p>Low: 56°F</p>  
+        <p>Low: 56°F</p> 
+        <p>Raining</p>
       </div>
-      <div class="current">
-        Raining
-        <picture>
-         <img src="images/Raining.jpg" alt="Cloud and rain">
-        </picture>
-      </div>   
+      <picture class="current">
+          <img src="images/Raining.jpg" alt="Cloud and rain">
+      </picture>
       <div class="conditions">
         <p>Precipitation: 89%</p>  
         <p>Wind Speed: 15 mph NE</p>  
-      </div>           
+      </div> 
     </section>
-    </div>  
+    </div>    
      <section class="forecast">
       <h3>Ten Day Forecast</h3>
       <table>
@@ -99,15 +101,17 @@
       </table>
      </section>
    <article>
-      <h3>Franklin Breaks Record</h3>
-      <picture>
+     <div class="header">
+       <h3>Franklin Breaks Record</h3>
+     </div>
+       <picture>
          <img src="images/pexels-photo-111963.jpeg" alt="Franklin town sample">
-      </picture>
-      <p class="town-article">
+       </picture>
+       <p class="town-article">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non elit sapien. Integer eget odio elit. Quisque vitae sem rutrum, ornare tellus et, malesuada elit. Morbi lorem nibh, rhoncus sed viverra ac, malesuada sollicitudin sem. Phasellus a consectetur nunc, in cursus erat. Aenean rutrum massa ex, sed fermentum urna maximus vel. Etiam porta, felis in scelerisque ultrices, lectus est pharetra libero, vel laoreet lectus nunc a lectus. Quisque eget consequat metus, a molestie ex. Donec et aliquam urna. Sed tincidunt vitae urna ut tincidunt. Nunc faucibus ullamcorper aliquam. In at tortor a ipsum consectetur condimentum. Maecenas non tincidunt elit, quis consectetur odio. Mauris risus ipsum, sollicitudin eu finibus nec, porta et nulla. Fusce consectetur augue vel mauris aliquet varius. Donec id venenatis diam.
 
           Sed vehicula nibh sed dolor eleifend, a pretium nunc molestie. Morbi eu augue felis. Curabitur vulputate suscipit iaculis. Sed dapibus id risus eu placerat. Morbi id dolor a lacus imperdiet dapibus a et erat. Integer fermentum scelerisque felis vitae feugiat. Nunc volutpat eros non sollicitudin pulvinar. Praesent vel felis interdum, commodo ex at, sollicitudin metus. Nulla iaculis, libero commodo pretium tristique, quam neque suscipit mi, et ullamcorper tortor nisi quis magna. Cras quis imperdiet mauris. Integer eget euismod quam. Nam viverra velit quam, in accumsan sem lobortis a. Duis ac mi sed nisl varius mollis non ut tellus. Integer tempor lacus nec aliquam tincidunt.
-      </p>
+       </p>
    </article>		  
   </main>
     
@@ -123,5 +127,6 @@
     </section>
   </footer>
   <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
  </body>
 </html>

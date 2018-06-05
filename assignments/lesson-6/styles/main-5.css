@@ -1,49 +1,56 @@
- * { box-sizing: border-box;
-   margin: auto;
-     
+* { box-sizing: border-box;
+    margin:auto;
+
 } 
 
 body {
-   font-size: 16px;
-   font-family: 'Open Sans', sans-serif;
-   color: #000000;
-   padding: 1.5rem;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;;
+    color: #000000;
+    padding: 1.5rem;
 
 }
 
 header, nav, main, footer { 
-  max-width: 1366px; 
-  margin: auto;
+    max-width: 1366px; 
+    margin: auto;
 }
 
-header{
-   background-color:  #F99B0F;
+header {
+    display: flex;
+    flex-flow: row;
+    justify-content: right;
     
 }
 header h1 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;;
     text-align: right;
     margin: 0;
     padding: 0;
-    background-color: #d8d8d8;
 }
 
 header img {
     width: 200px;
-    background-color: #d8d8d8;
+    justify-content: flex-start;
 }
 
 header .subheading {
     text-align: right;
-    padding-bottom: 2rem;
-    background-color: #d8d8d8;
+    padding-bottom: .5em;
+    
 }
 
 nav {
-    background-color: #9FA3AD;  
+    background-color: #9FA3AD;
     text-align: center; 
 }
-nav button {}
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #000000;
+    display: block;
+}
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -55,11 +62,15 @@ nav ul li {
 }
 nav ul li a {
     display: block;
+    width: 100;
     color: #0516FE;
     text-align: center;
-    padding: .75rem;
+    padding: 1rem;
+    padding-left: .75rem;
+    padding-right: .75rem;
     text-decoration: none;
-    font-size: .9rem;
+    font-size: 1rem;
+    border-top: 1ps solid rgba(0,0,0,.3)
 }
 nav ul li.active a {}
 nav ul li a:hover {
@@ -67,45 +78,58 @@ nav ul li a:hover {
     color: #000000;
 }
 
+nav ul.hide {
+    display: none;
+}
+
 main {}
 
-main h2 {}
-main figure { 
-    margin: 0 0 .2rem 2%; width:96%;
-    
+main h2 {
+    padding: .5em;
 }
+
 main figure img {
-    width: 100%;
-    height: auto;
-    float: left;
+    height: 160px;
+    padding: 0;
+    margin: 0;
 }
 
 main article {
-    padding: .25rem;
-    text-align: center;
-    
+    padding: 2rem;
+    margin: auto;
+    text-align: left;
+   
 }
 
 main article img {
     width: 100%;
-    height: auto;
-    float: right;
+    float: center;
+    padding: .5rem;
+    
+    
+    
+
+}
+
+.town-article{
+    padding-top: 1.5rem;
+    
 }
 
 .current{
-    font-size: 20px;
-    padding: .25rem;
-    text-align: center;
-    
+    width: 100px;
+    height: auto;
+    margin: 1em;
 }
 
 main picture img{
     width: 200px;
     float: center;
+    padding-top: 1.5rem;
     
 }
 footer {
-   
+    padding-top: 1.5rem;
 }
 
 .forecast {
@@ -113,16 +137,35 @@ footer {
 }
 
 .weather-summary{
-    padding: .25rem;
     text-align: center;
+    padding: .5rem;
+    background-color: 
     
 }
+.highlow{
+    float: center;
+    text-align: center;
+    padding: .5rem
+}
+
+.conditions{
+    text-align: center;
+    padding-top: .5rem;
+      
+}
+
+.header{
+    text-align: center;
+    padding-bottom: .5rem;
+}
+
 
 .contact{
     left: 0;
     margin: 0;
     background-color: #D8D8D8;
     text-align: center;
+
 }
 
 .footer-bar{
@@ -130,4 +173,5 @@ footer {
     margin: 0;
     background-color: #9FA3AD;
     text-align: center;
+
 }
