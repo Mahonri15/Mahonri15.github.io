@@ -103,7 +103,9 @@ main figure img {
     justify-content: center;
 }
 
-
+.highlow{
+    padding: .5rem;
+}
 
 
 .weather-summary{

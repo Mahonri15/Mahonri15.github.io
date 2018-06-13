@@ -55,11 +55,31 @@
       <h3>Weather Summary</h3>
       <div class="contents">
        <div class="highlow">
-         <p>High: 76°F</p>  
-         <p>Low: 56°F</p> 
+         <p>
+            <strong>High:</strong>
+            <span id="highTemp">76</span>
+             °F
+         </p>  
+         <p>
+            <strong>Low:</strong>
+            <span id="lowTemp">56</span>
+             °F
+         </p> 
          <p>Raining</p>
-         <p>Precipitation: 89%</p>  
-         <p>Wind Speed: 15 mph NE</p>  
+         <p>
+            <strong>Precipitation:</strong>
+             89%
+         </p>  
+         <p>
+             <strong>Wind Speed:</strong>
+             <span id="windSpeed">15</span>
+              mph NE
+         </p>
+         <p>
+             <strong>Wind Chill Factor:</strong>
+             <span id="windChillFactor"></span>
+              °F
+         </p>
        </div>
       <picture class="cloudRain">
           <img src="images/Raining.jpg" alt="Cloud and rain">
@@ -126,5 +146,6 @@
   </footer>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
+  <script src="scripts/windchill.js"></script>
  </body>
 </html>
