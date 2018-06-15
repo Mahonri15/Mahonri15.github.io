@@ -92,7 +92,6 @@ main figure img {
 .cloudRain{
     height: auto;
     margin: auto;
-    padding-left: 1.35rem;
    
 }
 
@@ -103,13 +102,19 @@ main figure img {
     justify-content: center;
 }
 
-.highlow{
-    padding: .5rem;
+.weather-summary h3{
+    
 }
 
+.highlow{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+}
 
 .weather-summary{
     text-align: center;
+    
 }
 
 main picture img{
@@ -119,7 +124,7 @@ main picture img{
 
 .contents{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     margin-top: -10px;
@@ -140,7 +145,7 @@ main article {
 
 .header{
     text-align: center;
-    padding-bottom: .5rem;
+    padding-bottom: 1.5rem;
 }
 
 main article img {

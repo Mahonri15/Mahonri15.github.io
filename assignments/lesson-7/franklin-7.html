@@ -54,7 +54,7 @@
     <section class="weather-summary">
       <h3>Weather Summary</h3>
       <div class="contents">
-       <div class="highlow">
+       <span id="highlow">
          <p>
             <strong>High:</strong>
             <span id="highTemp">76</span>
@@ -64,8 +64,12 @@
             <strong>Low:</strong>
             <span id="lowTemp">56</span>
              °F
-         </p> 
-         <p>Raining</p>
+         </p>
+          </span>
+          <div class="current">
+         <p>
+            <strong>Raining</strong>
+         </p>
          <p>
             <strong>Precipitation:</strong>
              89%
@@ -80,12 +84,12 @@
              <span id="windChillFactor"></span>
               °F
          </p>
+        </div>
        </div>
       <picture class="cloudRain">
           <img src="images/Raining.jpg" alt="Cloud and rain">
       </picture>
-      </div>               
-    </section>
+     </section>
     </div>    
      <section class="forecast">
       <h3>Ten Day Forecast</h3>
