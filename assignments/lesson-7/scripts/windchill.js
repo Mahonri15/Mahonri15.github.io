@@ -1,24 +1,14 @@
- let h = document.getElementById("highTemp").innerHTML;
- let l = document.getElementById("lowTemp").innerHTML;
- let avg = getAverage(h, l);
- document.getElementById("highlow").innerHTML = avg / 2;
- 
- function getAverage(h, l) {
-  let low = parseInt(l);
-  let high = parseInt(h);
- 	let average = low + high;
-  return average;
- }
+ let h = parseFloat(document.getElementById("highTemp").innerHTML);
+let l = parseFloat(document.getElementById("lowTemp").innerHTML);
+let speed = parseFloat(document.getElementById("windSpeed").innerHTML);
+let avg = (h + l) / 2;
+let result = windChill(avg, speed);
+document.getElementById("windChillFactor").innerHTML = result.toFixed(2);
 
 
 
-let tempF = document.getElementById("highlow").innerHTML;
-let speed = document.getElementById("windSpeed").innerHTML;
-let result = windChill(tempF, speed);
-document.getElementById("windChillFactor").innerHTML = result;
-
-
-function windChill(tempF, speed) {
-  let f = 35.74 + (0.6215 * tempF) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * tempF * Math.pow(speed, 0.16));
-  return f.toFixed(2);
+function windChill(avg, speed) {
+  let f = 35.74 + (0.6215 * avg) - (35.75 * Math.pow(speed, 0.16)) + (0.4275 * avg *     Math.pow(speed, 0.16));{
+  return f;
+  }
 }

@@ -102,14 +102,17 @@ main figure img {
     justify-content: center;
 }
 
-.weather-summary h3{
-    
+.current{
+    display: flex;
+    flex-flow: column-reverse;
+    padding: .5rem;
 }
 
 .highlow{
     display: flex;
     flex-flow: column;
     text-align: center;
+    padding: .5rem;
 }
 
 .weather-summary{
