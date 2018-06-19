@@ -2,11 +2,13 @@
 
 html {
   font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    background-color: darkgrey;
 }
 
 body {
   width: 800px;
   margin: 0 auto;
+  background-color: crimson;
 }
 
 h1, h2 {
