@@ -11,4 +11,5 @@ weatherRequest.onload = function () {
     document.getElementById("currentTemp").innerHTML = weatherData.main.temp;
     document.getElementById("humidity").innerHTML = weatherData.main.humidity;
     document.getElementById("windspeed").innerHTML = weatherData.wind.speed;
+    document.getElementById("weathericon").src = "https://openweathermap.org/img/w/" + weatherData.weather[0].icon + ".png";
 }
