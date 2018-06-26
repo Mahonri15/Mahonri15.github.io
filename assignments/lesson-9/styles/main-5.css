@@ -89,11 +89,6 @@ main figure img {
     width: 100%;
 }
 
-.cloudRain{
-    height: auto;
-    margin: auto;
-   
-}
 
 .weatherClass{
     display: flex;
@@ -102,36 +97,39 @@ main figure img {
     justify-content: center;
 }
 
-.current{
-    display: flex;
-    flex-flow: column-reverse;
-    padding: .5rem;
-}
-
-.highlow{
-    display: flex;
-    flex-flow: column;
-    text-align: center;
-    padding: .5rem
-}
-
-.weather-summary{
-    text-align: center;
-    
-}
-
 main picture img{
     margin:auto;
     width: 150px;    
 }
 
-.contents{
+.current img {
+    width: auto;
+    height: auto;
+    margin: .5rem;
+}
+
+.weather-summary {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.contents {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
     margin-top: -10px;
-    padding-top: 1.5rem;
+}
+
+.currentTemp {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.wind {
+    text-align: center;
+    margin: 0 1rem 1rem 1rem; 
 }
 
 .forecast {
@@ -289,4 +287,45 @@ form input.submitBtn{
 
 .thankyou {
     text-align: center;
+}
+
+/*-----------INDEX PAGE STARTS HERE--------------*/
+
+.hurricane {
+    padding: 1.5rem;
+}
+
+.hurricane h3 {
+    padding-bottom: .5rem;
+}
+
+.hurricane img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+
+.townSections {
+    display: flex;
+    flex-flow: column;
+    clear: both;
+}
+
+.townPanels {
+    box-shadow: 3px 3px 3px #bbb;
+    background-color: rgba(191, 191, 191);
+    margin-bottom: 2em;
+}
+
+.townStatus {
+    display: flex;
+    flex-flow: column;
+    padding: 1em;
+}
+
+.townPic img{
+    width: auto;
+    height: 200px;
+    padding: .5rem;
 }

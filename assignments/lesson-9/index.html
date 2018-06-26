@@ -14,7 +14,7 @@
     
  <body>
   <header>
-    <div id="header img">
+    <div id="header">
       <img src="images/sunandcloud1.jpg" alt="cloud and sun logo">
     </div>
     <div id="handm">
@@ -26,10 +26,10 @@
     <button class="hamburger" onclick="toggleHam()">&#9776;</button>
     <ul id="primaryNavigation" class="hide">
     	<li>
-            <a href="#Home">Home</a>
+            <a href="#">Home</a>
         </li>
     	<li>
-            <a href="#Franklin">Franklin</a>
+            <a href="franklin-8.html">Franklin</a>
         </li>
     	<li>
             <a href="#Greenville">Greenville</a>
@@ -46,7 +46,7 @@
     </ul>		
   </nav>
   <main>
-      <article class="">
+      <article class="hurricane">
           <h3>Hurricane approaches the land</h3>
           <img src="images/Hurricane.jpeg" alt="hurricane preparing to land fall">
           <p>
@@ -56,65 +56,64 @@
       <section class="townSections">
           <div class="townPanels">
               <div class="townStatus">
-                  <h3 id="cityName"> </h3>
+                  <h3 id="cityName">Franklin</h3>
                   <p>
                       <strong>Motto:</strong>
-                      <span id="cityMoto"> </span>
+                      <span id="cityMotto">Where you will grow!</span>
                       <br>
                       <strong>Year Founded:</strong>
-                      <span id="cityYear"> </span>
+                      <span id="cityYear">1788</span>
                       <br>
                       <strong>Population:</strong>
-                      <span id="cityPopulation"> </span>
+                      <span id="cityPopulation">30458</span>
                       <br>
                       <strong>Annual Rainfall:</strong>
-                      <span id="cityRainfall"> </span>
+                      <span id="cityRainfall">21</span>
+                      inches
                   </p>
               </div>
               <picture class="townPic">
                   <img src="images/franklin.jpeg" alt="franklin has one of the most beautiful sunset">
               </picture>
           </div>
-      </section>
-          <section class="townSection">
-          <div class="townPanels">
+          <div class="townPanels" id="reversepic">
               <div class="townStatus">
-                  <h3 id="cityName1"> </h3>
+                  <h3 id="cityName1">Greenville</h3>
                   <p>
                       <strong>Motto:</strong>
-                      <span id="cityMoto1"> </span>
+                      <span id="cityMotto1">Green is our way of life.</span>
                       <br>
                       <strong>Year Founded:</strong>
-                      <span id="cityYear1"> </span>
+                      <span id="cityYear1">1805</span>
                       <br>
                       <strong>Population:</strong>
-                      <span id="cityPopulation1"> </span>
+                      <span id="cityPopulation1">3458</span>
                       <br>
                       <strong>Anuual Rainfall:</strong>
-                      <span id="cityRainfall1"> </span>
+                      <span id="cityRainfall1">25</span>
+                      inches
                   </p>
               </div>
-              <picture class="townpic">
+              <picture class="townPic">
                   <img src="images/greenville.jpeg" alt="greenville one of earth's paradise">
               </picture>
           </div>
-          </section>
-          <section class="townSection">
           <div class="townPanels">
               <div class="townStatus">
-                  <h3 id="cityName2"> </h3>
+                  <h3 id="cityName2">Springfield</h3>
                   <p>
                       <strong>Motto:</strong>
-                      <span id="cityMoto2"> </span>
+                      <span id="cityMotto2">Where everyone is lifted.</span>
                       <br>
                       <strong>Year Founded:</strong>
-                      <span id="cityYear2"> </span>
+                      <span id="cityYear2">1826</span>
                       <br>
                       <strong>Population:</strong>
-                      <span id="cityPopulation2"></span>
+                      <span id="cityPopulation2">17852</span>
                       <br>
                       <strong>Annual Rainfall:</strong>
-                      <span id="cityRainfall2"> </span>
+                      <span id="cityRainfall2">17</span>
+                      inches
                   </p>
               </div>
               <picture class="townPic">
@@ -124,15 +123,15 @@
       </section>
   </main>
   <footer>
-    <section class="contact">
+    <div class="contact">
       <br>Contact information placeholder
       <br>(+63)9266258633
       <br>123 Main St. Anytown, US 99999
-      <br>mahonrinotate@gmail.com
-    </section>
-    <section class="footer-bar">&copy;2018 | All Rights Reserved | Four Season Weather | 
+      <br>mahonrinotrate@gmail.com
+    </div>
+    <div class="footer-bar">&copy;2018 | All Rights Reserved | Four Season Weather | 
         <span id="currentdate"></span>
-    </section>
+    </div>
   </footer>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>

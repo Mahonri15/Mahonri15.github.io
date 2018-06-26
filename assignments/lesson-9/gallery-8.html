@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Four Season Weather Page</title>
+    <meta name="description" content="Every Season the Weather changes that's why we have this for you.">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-5.css">
+    <link rel="stylesheet" href="styles/medium-5.css">
+    <link rel="stylesheet" href="styles/large-5.css">
+  </head>
+    
+ <body>
+  <header>
+    <div id="headerPic">
+      <img src="images/sunandcloud1.jpg" alt="cloud and sun logo">
+    </div>
+    <div id="handm">
+      <h1>Four Season Weather</h1>
+      <div class="subheading">We got the latest weather forecast just for you!</div>
+    </div>
+  </header>
+  <nav>
+    <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    <ul id="primaryNavigation" class="hide">
+    	<li>
+            <a href="index.html">Home</a>
+        </li>
+    	<li>
+            <a href="franklin-8.html">Franklin</a>
+        </li>
+    	<li>
+            <a href="#Greenville">Greenville</a>
+        </li>
+    	<li>
+            <a href="#Springfield">Springfield</a>
+        </li>
+    	<li>
+            <a href="stormcenter.html">Storm Center</a>
+        </li>
+    	<li>
+            <a href="#">Gallery</a>
+        </li>
+    </ul>		
+  </nav>
+  <main class="gallery">
+      <figure>
+          <img src="images/Franklin%20Raining.jpeg" alt="It's raining in Franklin">
+          <figcaption>Franklin during the rainy season</figcaption>
+      </figure>
+      <figure>
+          <img src="images/Franklin%20Foggy.jpeg" alt="It's foggy in Franklin">
+          <figcaption>Be careful when driving in the roads during a fog</figcaption>
+      </figure>
+      <figure>
+          <img src="images/Franklin%20Snow.jpeg" alt="It's snowing in Franklin">
+          <figcaption>Grab your jackets everyone. It's pretty cold during the winters</figcaption>
+      </figure>
+      <figure>
+          <img src="images/Franklin%20Autumn.jpeg" alt="It's autumn in Franklin">
+          <figcaption>Autumn in Franklin can be breathtaking</figcaption>
+      </figure>
+      <figure>
+          <img src="images/Franklin%20Thunder%20storm.jpeg" alt="Thunderstorm in Franklin">
+          <figcaption>Franklin during a thunderstorm</figcaption>
+      </figure>
+      <figure>
+          <img src="images/Franklin%20Summer.jpeg" alt="It's Summer in Franklin">
+          <figcaption>Head to the beach. Franklin has some nice beaches to visit</figcaption>
+      </figure>
+  </main>
+  <footer>
+    <section class="contact">
+      <br>
+        Contact information placeholder
+      <br>
+        (+63)9266258633
+      <br>
+        123 Main St. Anytown, US 99999
+      <br>
+        mahonrinotate@gmail.com
+    </section>
+    <section class="footer-bar">&copy;2018 | All Rights Reserved | Four Season Weather | 
+        <span id="currentdate"></span>
+    </section>
+  </footer>
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+ </body>
+</html>

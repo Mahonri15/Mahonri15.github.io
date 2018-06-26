@@ -22,14 +22,17 @@
         display: inline-block;
     }
     
-    .weather-summary h3{
-        
-    }
-      
-    .weather-summary{
+    .contents {
         flex-direction: row;
-        font-size: 20px;
-        
+    }
+    
+    .currentTemp {
+        text-align: left;
+    }
+    
+    .wind {
+        text-align: left;
+        padding-top: 1.1rem;
     }
     
     .forecast{
@@ -53,4 +56,16 @@
     .gallery {
         grid-template-columns: 1fr 1fr;
     }
- }
+ 
+
+/*--------------INDEX PAGE STARTS HERE---------------*/
+
+.townPanels {
+    display: inline-flex;
+}
+
+#reversepic {
+    flex-direction: row-reverse;
+}
+    
+}
