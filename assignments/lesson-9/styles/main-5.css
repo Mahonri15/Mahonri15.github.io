@@ -313,7 +313,7 @@ form input.submitBtn{
 
 .townPanels {
     box-shadow: 3px 3px 3px #bbb;
-    background-color: rgba(191, 191, 191,191);
+    background-color: rgba(191, 191, 191,0);
     margin-bottom: 2em;
 }
 
