@@ -9,7 +9,7 @@
     }  
     
     nav ul.hide {
-        display: block;
+        display: flex;
     }
     
     section.forecast { 
@@ -19,7 +19,7 @@
     }  
     
     nav ul li{
-        display: inline-block;
+        display: flex;
     }
     
     .contents {
