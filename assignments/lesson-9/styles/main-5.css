@@ -46,7 +46,7 @@ nav button {
     border: none;
     font-size: 1.5rem;
     color: #000000;
-    display: flex;
+    display: block;
 }
 nav ul {
     list-style-type: none;
@@ -54,9 +54,7 @@ nav ul {
     padding: 0;
     width: 100%
 }
-nav ul li {
-    display: flex;
-}
+
 nav ul li a {
     display: block;
     color: #1917C4;
@@ -65,7 +63,10 @@ nav ul li a {
     text-decoration: none;
     font-size: 1rem;
 }
-nav ul li.active a {}
+nav ul li.active a {
+    
+}
+
 nav ul li a:hover {
     background-color: #D8D8D8;
     color: #000000;

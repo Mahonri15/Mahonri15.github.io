@@ -54,9 +54,7 @@ nav ul {
     padding: 0;
     width: 100%
 }
-nav ul li {
-    display: block;
-}
+
 nav ul li a {
     display: block;
     width: 100;
