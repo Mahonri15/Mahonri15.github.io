@@ -5,7 +5,7 @@ dataRequest.send();
 
 dataRequest.onload = function() {
     let townData = JSON.parse(dataRequest.responseText);
-    //console.log(townData);
+    
     document.getElementById("cityName").innerHTML = townData.towns[0].name;
     document.getElementById("cityMotto").innerHTML = townData.towns[0].motto;
     document.getElementById("cityYear").innerHTML = townData.towns[0].yearFounded;

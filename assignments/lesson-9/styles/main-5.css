@@ -32,6 +32,7 @@ header img {
 }
 
 header .subheading {
+    font-style: italic;
     text-align: right;
     padding-bottom: .5em;
     
@@ -76,9 +77,13 @@ nav ul.hide {
     display: none;
 }
 
-main {}
+main {
+    background-color: #f2f2f2;
+}
 
 main h2 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px;
     padding: .5em;
 }
 
@@ -110,6 +115,7 @@ main picture img{
 .weather-summary {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
     text-align: left;
 }
 
@@ -117,32 +123,33 @@ main picture img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: -10px;
+    padding: 1rem;
 }
 
 .currentTemp {
     text-align: center;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    padding: 1rem;
 }
 
 .wind {
     text-align: center;
-    margin: 0 1rem 1rem 1rem; 
+    padding: 1rem;
 }
 
 .forecast {
     display:none;
-    background-color: #D8D8D8;
     padding-bottom: 2rem
 }
 
 .forecast h3{
     padding-bottom: 10px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px;
 }
 
 thead, tbody {
-    background-color: #9FA3Ad;
+    //background-color: #9FA3Ad;
+    box-shadow: 1px 1px 1px;
     text-align: center;
 }
 
@@ -163,25 +170,26 @@ main article {
 
 .header{
     text-align: center;
+    font-size: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
 main article img {
     width: 100%;
     height: auto;
-    box-shadow: 3px 3px 3px #bbb;
+    box-shadow: 4px 4px 4px #bbb;
     padding: .5rem;
 
 }
 
 .town-article{
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     
 }
 
 
 footer {
-    padding-top: 1.5rem;
+
 }
 
 .contact{
@@ -189,7 +197,7 @@ footer {
     margin: 0;
     background-color: #D8D8D8;
     text-align: center;
-    padding: .50rem
+    padding: .50rem;
 
 }
 
@@ -207,7 +215,7 @@ footer {
 .gallery {
     display: grid;
     grid-template-columns: 1fr;
-    grid-gap: 20px;
+    grid-gap: 10px;
     padding: 20px;
     
 
@@ -221,7 +229,7 @@ figcaption {
 
 form fieldset {
     margin: 2rem;
-    border: 3px solid #D8D8D8;
+    border: 3px solid #808080;
     border-radius: 15px;
     padding: 1rem 2%;
 }
@@ -295,6 +303,7 @@ form input.submitBtn{
 }
 
 .hurricane h3 {
+    font-size: 25px;
     padding-bottom: .5rem;
 }
 
