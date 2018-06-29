@@ -1,0 +1,339 @@
+* { box-sizing: border-box;
+    margin:auto;
+} 
+
+body {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;;
+    color: #000000;
+    padding: 1.5rem;
+}
+
+header, nav, main, footer { 
+    max-width: 960px; 
+    margin: auto;
+}
+
+header {
+    display: flex;
+    flex-flow: row;   
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;;
+    text-align: right;
+    margin: 0;
+    padding: 1rem;
+}
+
+header img {
+    width: 150px;
+    justify-content: flex-start;
+}
+
+header .subheading {
+    font-style: italic;
+    text-align: right;
+    padding-bottom: .5em;
+    
+}
+
+nav {
+    background-color: #9FA3AD;
+    text-align: center; 
+}
+nav button {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    color: #000000;
+    display: block;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
+
+nav ul li a {
+    display: block;
+    color: #1917C4;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1rem;
+}
+nav ul li.active a {
+    
+}
+
+nav ul li a:hover {
+    background-color: #D8D8D8;
+    color: #000000;
+}
+
+nav ul.hide {
+    display: none;
+}
+
+main {
+    background-color: #f2f2f2;
+}
+
+main h2 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px;
+    padding: .5em;
+}
+
+main figure img {
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+
+.weatherClass{
+    display: flex;
+    flex-flow: column;
+    align-content: center;
+    justify-content: center;
+}
+
+main picture img{
+    margin:auto;
+    width: 150px;    
+}
+
+.current img {
+    width: auto;
+    height: auto;
+    margin: .5rem;
+}
+
+.weather-summary {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    text-align: left;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.currentTemp {
+    text-align: center;
+    padding: 1rem;
+}
+
+.wind {
+    text-align: center;
+    padding: 1rem;
+}
+
+.forecast {
+    display:none;
+    padding-bottom: 2rem
+}
+
+.forecast h3{
+    padding-bottom: 10px;
+    font-size: 2rem;
+    text-shadow: 2px 2px 2px;
+}
+
+thead, tbody {
+    //background-color: #9FA3Ad;
+    box-shadow: 1px 1px 1px;
+    text-align: center;
+}
+
+th {
+    padding: .2em
+}
+
+td {
+    padding: .3em;
+}
+
+main article {
+    padding: 2rem;
+    margin: auto;
+    text-align: left;
+   
+}
+
+.header{
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+main article img {
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 4px 4px #bbb;
+    padding: .5rem;
+
+}
+
+.town-article{
+    padding-top: 1rem;
+    
+}
+
+
+footer {
+
+}
+
+.contact{
+    left: 0;
+    margin: 0;
+    background-color: #D8D8D8;
+    text-align: center;
+    padding: .50rem;
+
+}
+
+.footer-bar{
+    left: 0;
+    margin: 0;
+    background-color: #9FA3AD;
+    text-align: center;
+    padding: .35rem;
+
+}
+
+/*---------- GALLERY ------------*/
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    padding: 20px;
+    
+
+}
+
+figcaption {
+    font-size: .75rem;
+}
+
+/*----------- FORM ------------*/
+
+form fieldset {
+    margin: 2rem;
+    border: 3px solid #808080;
+    border-radius: 15px;
+    padding: 1rem 2%;
+}
+
+form legend {
+    color: #1e90ff;
+    font-size: 20px;
+    margin: 0 .5rem;
+    padding: 0 .5rem;
+}
+
+form label.top {
+    display: block;
+    padding: 1rem
+}
+
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #000000;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+
+form label.top input:required{
+    border: red solid 2px;
+}
+
+.slider {
+    cursor: pointer;
+    margin: 0 0 2%;
+}
+
+.buttons {
+    margin: 0 2%;
+}
+
+textarea {
+    display: block;
+    background-color: rgba(0,0,0,0.1);
+    width: 100%;
+    height: 10rem;
+    max-width: 20rem;
+}
+
+form input.submitBtn{
+    border: none;
+    background-color: #9FA3AD;
+    color: #1917C4;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    padding: .75rem;
+    margin: auto;
+    width: 100%;
+    max-width: 15rem;
+}
+
+/*----- THANKYOU ----*/
+
+.thankyou {
+    text-align: center;
+}
+
+/*-----------INDEX PAGE STARTS HERE--------------*/
+
+.hurricane {
+    padding: 1.5rem;
+}
+
+.hurricane h3 {
+    font-size: 25px;
+    padding-bottom: .5rem;
+}
+
+.hurricane img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: 0 auto 1rem;
+}
+
+.townSections {
+    display: flex;
+    flex-flow: column;
+    clear: both;
+}
+
+.townPanels {
+    box-shadow: 3px 3px 3px #bbb;
+    background-color: #bfbfbf;
+    margin-bottom: 2em;
+}
+
+.townStatus {
+    display: flex;
+    flex-flow: column;
+    padding: 1em;
+}
+
+.townPic img{
+    width: auto;
+    height: 200px;
+    padding: .5rem;
+}

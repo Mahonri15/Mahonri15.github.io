@@ -1,0 +1,71 @@
+@media only screen and (min-width: 37.5em) {
+    
+    header img {
+        width: 200px;
+    }
+    
+    nav button { 
+        display:none; 
+    }  
+    
+    nav ul.hide {
+        display: flex;
+    }
+    
+    section.forecast { 
+        display: block;
+        text-align: center;
+        
+    }  
+    
+    nav ul {
+        display: flex;
+    }
+    
+    .contents {
+        flex-direction: row;
+    }
+    
+    .currentTemp {
+        text-align: left;
+    }
+    
+    .wind {
+        text-align: left;
+        padding-top: 1.1rem;
+    }
+    
+    .forecast{
+        text-align: center;
+        padding-top: 1.5rem;
+    }
+    
+    main article img {
+        width: 35%;
+        float: right;
+        margin: .25rem;
+   }
+    
+   
+    main figure img {
+       padding-top: 1.5rem;
+       padding-bottom: 1.5rem;
+    
+   }
+    
+    .gallery {
+        grid-template-columns: 1fr 1fr;
+    }
+ 
+
+/*--------------INDEX PAGE STARTS HERE---------------*/
+
+.townPanels {
+    display: inline-flex;
+}
+
+#reversepic {
+    flex-direction: row-reverse;
+}
+    
+}

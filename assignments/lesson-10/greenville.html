@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Four Season Weather Page</title>
+    <meta name="description" content="Every Season the Weather changes that's why we have this for you.">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/main-5.css">
+    <link rel="stylesheet" href="styles/medium-5.css">
+    <link rel="stylesheet" href="styles/large-5.css">
+  </head>
+    
+ <body>
+  <header>
+    <div id="header">
+      <img src="images/sunandcloud1.jpg" alt="cloud and sun logo">
+    </div>
+    <div id="handm">
+      <h1>Four Season Weather</h1>
+      <div class="subheading">We have the latest weather forecast just for you!</div>
+    </div>
+  </header>
+  <nav>
+    <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+    <ul id="primaryNavigation" class="hide">
+    	<li>
+            <a href="index.html">Home</a>
+        </li>
+    	<li>
+            <a href="#">Franklin</a>
+        </li>
+    	<li>
+            <a href="greenville.html">Greenville</a>
+        </li>
+    	<li>
+            <a href="springfield.html">Springfield</a>
+        </li>
+    	<li>
+            <a href="stormcenter.html">Storm Center</a>
+        </li>
+    	<li>
+            <a href="gallery.html">Gallery</a>
+        </li>
+    </ul>		
+  </nav>
+  <main>
+    <h2>Greenville Weather</h2>
+    <div class="weatherClass">
+    <figure>
+       <img src="images/greenvillelake.jpeg" alt="greenville and lake">
+    </figure>
+    <section class="weather-summary">
+      <h3>Weather Summary</h3>
+      <div class="contents">
+          <picture class="current">
+              <img src="https://openweathermap.org/img/w/01n.png" id="weathericon" alt="current weather icon">
+          </picture>
+       <div class="currentTemp">
+           <p>
+               <span class="temp" id="currentDescription"> </span>
+               <br>
+               <span class="weatherContent">Current: </span>
+               <span id="currentTemp"></span>
+               °F
+               <br>
+           </p>
+        </div>
+        <div class="wind">
+            <p>
+                <span class="weather">Humidity: </span>
+                <span id="humidity"></span>
+                %
+                <br>
+                <span class="weather">Wind Speed: </span>
+                <span id="windspeed"></span>
+                mph
+                <br>
+            </p>
+        </div>
+       </div>
+     </section>
+    </div>    
+     <section class="forecast">
+      <h3>Ten Day Forecast</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Monday |</th>
+            <th>Tuesday |</th>
+            <th>Wednesday |</th>
+            <th>Thursday |</th>
+            <th>Friday |</th>
+            <th>Saturday |</th>
+            <th>Sunday |</th>
+            <th>Monday |</th>
+            <th>Tuesday |</th>
+            <th>Wednesday</th>
+          </tr>
+	    </thead>
+        <tbody>  
+          <tr>
+            <td>89&deg;F</td>
+            <td>87&deg;F</td>
+            <td>78&deg;F</td>
+            <td>75&deg;F</td>
+            <td>72&deg;F</td>
+            <td>72&deg;F</td>
+            <td>79&deg;F</td>
+            <td>83&deg;F</td>
+            <td>85&deg;F</td>
+            <td>89&deg;F</td>
+          </tr>
+	   </tbody>
+      </table>
+     </section>
+   <article>
+     <div class="header">
+       <h3>Greenville Breaks Record</h3>
+     </div>
+       <img src="images/greenvillehorses.jpeg" alt="greenville horses in grass area">
+       <p class="town-article">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris non elit sapien. Integer eget odio elit. Quisque vitae sem rutrum, ornare tellus et, malesuada elit. Morbi lorem nibh, rhoncus sed viverra ac, malesuada sollicitudin sem. Phasellus a consectetur nunc, in cursus erat. Aenean rutrum massa ex, sed fermentum urna maximus vel. Etiam porta, felis in scelerisque ultrices, lectus est pharetra libero, vel laoreet lectus nunc a lectus. Quisque eget consequat metus, a molestie ex. Donec et aliquam urna. Sed tincidunt vitae urna ut tincidunt. Nunc faucibus ullamcorper aliquam. In at tortor a ipsum consectetur condimentum. Maecenas non tincidunt elit, quis consectetur odio. Mauris risus ipsum, sollicitudin eu finibus nec, porta et nulla. Fusce consectetur augue vel mauris aliquet varius. Donec id venenatis diam.
+
+          Sed vehicula nibh sed dolor eleifend, a pretium nunc molestie. Morbi eu augue felis. Curabitur vulputate suscipit iaculis. Sed dapibus id risus eu placerat. Morbi id dolor a lacus imperdiet dapibus a et erat. Integer fermentum scelerisque felis vitae feugiat. Nunc volutpat eros non sollicitudin pulvinar. Praesent vel felis interdum, commodo ex at, sollicitudin metus. Nulla iaculis, libero commodo pretium tristique, quam neque suscipit mi, et ullamcorper tortor nisi quis magna. Cras quis imperdiet mauris. Integer eget euismod quam. Nam viverra velit quam, in accumsan sem lobortis a. Duis ac mi sed nisl varius mollis non ut tellus. Integer tempor lacus nec aliquam tincidunt.
+       </p>
+   </article>		  
+  </main>
+    
+  <footer>
+    <div class="contact">
+      <br>Contact information placeholder
+      <br>(+63)9266258633
+      <br>123 Main St. Anytown, US 99999
+      <br>mahonrinotate@gmail.com
+      <p>
+          Special thanks to <a href="https://openweathermap.org/">Open Weathermap</a> for providing the weather data
+      </p>
+    </div>
+    <div class="footer-bar">&copy;2018 | All Rights Reserved | Four Season Weather | 
+        <span id="currentdate"></span>
+    </div>
+  </footer>
+  <script src="scripts/hamburger.js"></script>
+  <script src="scripts/currentdate.js"></script>
+  <script src="scripts/weather.js"></script>
+ </body>
+</html>

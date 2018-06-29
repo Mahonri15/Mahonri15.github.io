@@ -1,0 +1,32 @@
+@media only screen and (min-width: 64em ) {
+    
+    .weatherClass{
+        flex-flow: column;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr 1fr 1fr;
+  }
+
+    .gallery figure:hover {
+        box-shadow: 5px 5px LightGray;
+  }
+
+
+
+/*---------INDEX STARTS HERE--------------*/
+
+.townPanels {
+    display: flex;
+    flex-flow: column;
+}
+
+.townSections {
+    flex-flow: row nowrap;
+}
+
+#reversepic {
+    flex-direction: column;
+}
+
+}
