@@ -12,4 +12,6 @@ dataRequest.onload = function() {
     document.getElementById("cityPopulation").innerHTML = townData.towns[0].currentPopulation;
     document.getElementById("cityRainfall").innerHTML = townData.towns[0].averageRainfall;
     
+}
+    
     //document.getElementById("event1").innerHTML = townData.event[0].March 4: March to the Drum of Donuts;
