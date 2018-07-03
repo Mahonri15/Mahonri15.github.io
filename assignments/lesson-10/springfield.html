@@ -3,7 +3,7 @@
   <head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Four Season Weather Page</title>
+    <title>Springfield City Weather Page</title>
     <meta name="description" content="Every Season the Weather changes that's why we have this for you.">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -34,7 +34,7 @@
     	<li>
             <a href="greenville.html">Greenville</a>
         </li>
-    	<li>
+    	<li class="active">
             <a href="#">Springfield</a>
         </li>
     	<li>
@@ -81,7 +81,33 @@
         </div>
        </div>
      </section>
-    </div>    
+    </div>
+     <section class="alignment">
+       <div class="stats">
+        <p>
+            <strong>Motto:</strong>
+            <span id="cityMotto2"></span>
+            <br>
+            <strong>Year Founded:</strong>
+            <span id="cityYear2"></span>
+            <br>
+            <strong>Population:</strong>
+            <span id="cityPopulation2"></span>
+            <br>
+            <strong>Annual Rainfall:</strong>
+            <span id="cityRainfall2"></span>
+            inches
+        </p>
+        </div>
+        </section>
+        <div class="cityEvents">
+            <p>
+               <strong>Upcoming City Events:</strong>
+               <br>
+               <br>
+               <span id="franklinEvent"></span>
+            </p>
+        </div>
      <section class="forecast">
       <h3>Ten Day Forecast</h3>
       <table>
@@ -144,6 +170,7 @@
   </footer>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
-  <script src="scripts/weather.js"></script>
+  <script src="scripts/springweather.js"></script>
+  <script src="scripts/stowndata.js"></script>
  </body>
 </html>

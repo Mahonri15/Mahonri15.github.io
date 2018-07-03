@@ -3,7 +3,7 @@
   <head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Four Season Weather Page</title>
+    <title>Greenville City Weather Page</title>
     <meta name="description" content="Every Season the Weather changes that's why we have this for you.">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -29,10 +29,10 @@
             <a href="index.html">Home</a>
         </li>
     	<li>
-            <a href="#">Franklin</a>
+            <a href="franklin.html">Franklin</a>
         </li>
-    	<li>
-            <a href="greenville.html">Greenville</a>
+    	<li class="active">
+            <a href="#">Greenville</a>
         </li>
     	<li>
             <a href="springfield.html">Springfield</a>
@@ -81,7 +81,33 @@
         </div>
        </div>
      </section>
-    </div>    
+    </div>
+    <section class="alignment">
+       <div class="stats">
+        <p>
+            <strong>Motto:</strong>
+            <span id="cityMotto1"></span>
+            <br>
+            <strong>Year Founded:</strong>
+            <span id="cityYear1"></span>
+            <br>
+            <strong>Population:</strong>
+            <span id="cityPopulation1"></span>
+            <br>
+            <strong>Annual Rainfall:</strong>
+            <span id="cityRainfall1"></span>
+            inches
+        </p>
+        </div>
+        </section>
+        <div class="cityEvents">
+            <p>
+               <strong>Upcoming City Events:</strong>
+               <br>
+               <br>
+               <span id="franklinEvent"></span>
+            </p>
+        </div>
      <section class="forecast">
       <h3>Ten Day Forecast</h3>
       <table>
@@ -144,6 +170,7 @@
   </footer>
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
-  <script src="scripts/weather.js"></script>
+  <script src="scripts/greenweather.js"></script>
+  <script src="scripts/gtowndata.js"></script>
  </body>
 </html>

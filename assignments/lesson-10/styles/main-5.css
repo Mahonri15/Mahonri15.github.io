@@ -112,6 +112,18 @@ main picture img{
     margin: .5rem;
 }
 
+.alignment {
+    display: flex;
+    flex-flow: row;
+    padding: 1.5rem;
+}
+
+.cityEvents {
+    display: flex;
+    flex-flow: column;
+    padding: 1em;
+}
+
 .weather-summary {
     display: flex;
     flex-direction: column;

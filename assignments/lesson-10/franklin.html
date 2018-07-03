@@ -3,7 +3,7 @@
   <head> 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Four Season Weather Page</title>
+    <title>Franklin City Weather</title>
     <meta name="description" content="Every Season the Weather changes that's why we have this for you.">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="styles/normalize.css">
@@ -28,7 +28,7 @@
     	<li>
             <a href="index.html">Home</a>
         </li>
-    	<li>
+    	<li class="active">
             <a href="#">Franklin</a>
         </li>
     	<li>
@@ -51,8 +51,8 @@
     <figure>
        <img src="images/Franklin%20Park.jpeg" alt="Franklin park and people">
     </figure>
-    <div class="alignment">
-       <div class="townStatus">
+     <section class="alignment">
+       <div class="stats">
         <p>
             <strong>Motto:</strong>
             <span id="cityMotto"></span>
@@ -68,21 +68,15 @@
             inches
         </p>
         </div>
+        </section>
         <div class="cityEvents">
             <p>
                <strong>Upcoming City Events:</strong>
                <br>
-               <strong>March 4:</strong>
-               <span id="event1"></span>
                <br>
-               <strong>September 5 - 11:</strong>
-               <span id="event2"></span>
-               <br>
-               <strong>December 1 - 26:</strong>
-               <span id="event3"></span>
+               <span id="franklinEvent"></span>
             </p>
         </div>
-      </div>
     <section class="weather-summary">
       <h3>Weather Summary</h3>
       <div class="contents">
@@ -177,6 +171,6 @@
   <script src="scripts/hamburger.js"></script>
   <script src="scripts/currentdate.js"></script>
   <script src="scripts/weather.js"></script>
-  <script src="scripts/towndata.js"></script>
+  <script src="scripts/ftowndata.js"></script>
  </body>
 </html>
