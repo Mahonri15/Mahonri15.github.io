@@ -65,7 +65,8 @@ nav ul li a {
     font-size: 1rem;
 }
 nav ul li.active a {
-    
+    color: aliceblue;
+    background-color: dimgrey;
 }
 
 nav ul li a:hover {
@@ -99,6 +100,13 @@ main figure img {
     flex-flow: column;
     align-content: center;
     justify-content: center;
+}
+
+.cityEvents {
+    display: flex;
+    flex-flow: row;
+    text-align: center;
+    
 }
 
 main picture img{

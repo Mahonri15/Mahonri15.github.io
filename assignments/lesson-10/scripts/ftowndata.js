@@ -11,6 +11,7 @@ franklinRequest.onload = function() {
     document.getElementById("cityPopulation").innerHTML = townData.towns[0].currentPopulation;
     document.getElementById("cityRainfall").innerHTML = townData.towns[0].averageRainfall;
     document.getElementById("franklinEvent").innerHTML = townData.towns[0].events;
+    
 }
 
 
