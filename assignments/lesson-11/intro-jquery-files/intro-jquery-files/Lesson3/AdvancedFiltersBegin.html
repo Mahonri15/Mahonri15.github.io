@@ -8,8 +8,19 @@
 	<script>
 	$(function(){
 		// All jQuery code goes here
-
-
+        
+        // selects all the first instances of list items
+       // $('li:first-of-type').css('background-color', 'rgb(248, 95, 95)');
+        // selecting alone tags
+       // $('li:only-of-type').css('background-color', 'rgb(248, 95, 95)');
+        // using contain filtering that looks up all elements where the string is contected
+       // $('li:contains("Crush")').css('background-color', 'rgb(248, 95, 95)');
+        // finding empty tags
+       // $('li:empty').css('background-color', 'rgb(248, 95, 95)');
+        // selecting tags that contain another tag
+       // $('li:has("h4")').css('background-color', 'rgb(248, 95, 95)');
+        // grabing nth numbered elements
+        $('li:nth-child(3)').css('background-color', 'rgb(248, 95, 95)');
 
 	})
 	</script>
