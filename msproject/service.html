@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Mountain Spoke</title>
+        <meta name="author" content="Jehn Mahonri Notarte">
+        <meta name="description" content="Final Project for CIT 230: Web Frontend Development at BYU Idaho.">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        <header>
+            <a href="mountainspoke.html">
+                 <img src="images/mountain-spoke-logo.png" alt="moutain spoke logo and trademarks">
+            </a>
+        <nav>
+            <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+            <ul id="primaryNavigation" class="hide">
+                <li>
+                    <a href="tours.html">Tours</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="sales.html">Sales</a>
+                </li>
+                <li class="active">
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <h1>BIKE SERVICES PRICING</h1>
+            <div id="tableContainer">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th colspan="2">Tune-Ups / Builds</th>
+                        </tr>
+                        <tr>
+                            <td>Inertia Tune-Up</td>
+                            <td>$22.50</td>
+                        </tr>
+                        <tr>
+                            <td>Force Tune-Up</td>
+                            <td>$75</td>
+                        </tr>
+                        <tr>
+                            <td>Moment Tune-Up</td>
+                            <td>$130</td>
+                        </tr>
+                        <tr>
+                            <td>Acceleration Tune-Up</td>
+                            <td>$250</td>
+                        </tr>
+                        <tr>
+                            <td>Bike Assembly</td>
+                            <td>$100</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <tbody>
+                        <th colspan="2">Installations</th>
+                        <tr>
+                            <td>Install Tire and Tube</td>
+                            <td>$20</td>
+                        </tr>
+                        <tr>
+                            <td>Install Tubular Tire</td>
+                            <td>$80</td>
+                        </tr>
+                        <tr>
+                            <td>Install and Program Computer</td>
+                            <td>$40</td>
+                        </tr>
+                        <tr>
+                            <td>Install New Break Cable</td>
+                            <td>$24</td>
+                        </tr>
+                        <tr>
+                            <td>install New Break Pads(front and back)</td>
+                            <td>$40</td>
+                        </tr>
+                        <tr>
+                            <td>Install New Disc Brakes(front and back)</td>
+                            <td>$80</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <tbody>
+                        <th colspan="2">Adjustments</th>
+                        <tr>
+                            <td>Adjust Front Derailleur</td>
+                            <td>$30</td>
+                        </tr>
+                        <tr>
+                            <td>Adjust Rear Derailluer</td>
+                            <td>$45</td>
+                        </tr>
+                        <tr>
+                            <td>Adjust front and rear breaks</td>
+                            <td>$20</td>
+                        </tr>
+                        <tr>
+                            <td>Adjust Rim Brake Pads</td>
+                            <td>$10</td>
+                        </tr>
+                        <tr>
+                            <td>Adjust Disc Brake Pads</td>
+                            <td>$15</td>
+                        </tr>
+                        <tr>
+                            <td>Headset Adjust</td>
+                            <td>$8</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table>
+                    <tbody>
+                        <th colspan="2">Drivetrain</th>
+                        <tr>
+                            <td>Drivetrain Adjustment/Cleaning</td>
+                            <td>$30</td>
+                        </tr>
+                        <tr>
+                            <td>Chain Installation</td>
+                            <td>$10</td>
+                        </tr>
+                        <tr>
+                            <td>Pedals Installation</td>
+                            <td>$5</td>
+                        </tr>
+                        <tr>
+                            <td>Crank Installation</td>
+                            <td>$15</td>
+                        </tr>
+                        <tr>
+                            <td>Bottom Bracket Adjustment</td>
+                            <td>$25</td>
+                        </tr>
+                        <tr>
+                            <td>Bottom Bracket Installation</td>
+                            <td>$45</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+         <footer>
+            <div class="upperFooter">
+                <p>The Mountain Spoke</p>
+                <p>3950 Valley Commons Drive | Bozeman, MT 517895</p>
+                <p>09266258633 | mahonrinotarte@gmail.com</p>
+            </div>
+        </footer>
+        <div class="lowerFooter">&copy;2018 | All Rights Reserved | The Mountain Spoke | 
+                <span id="currentdate"></span>
+        </div>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

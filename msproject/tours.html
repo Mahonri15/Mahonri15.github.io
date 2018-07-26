@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Mountain Spoke</title>
+        <meta name="author" content="Jehn Mahonri Notarte">
+        <meta name="description" content="Final Project for CIT 230: Web Frontend Development at BYU Idaho.">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        <header>
+            <a href="mountainspoke.html">
+                 <img src="images/mountain-spoke-logo.png" alt="moutain spoke logo and trademarks">
+            </a>
+        <nav>
+            <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+            <ul id="primaryNavigation" class="hide">
+                <li class="active">
+                    <a href="#">Tours</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="sales.html">Sales</a>
+                </li>
+                <li>
+                    <a href="service.html">Services</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <main id="tours">
+            <h1>CHOOSE YOUR NEXT ADVENTURE</h1>
+            <div id="tour1">
+                <div class="tourInfo">
+                    <h2>ROCKY MOUNTAINS</h2>
+                    <img src="images/rockymountbike.jpg" alt="biker biking down the path">
+                    <section class="tourDetails">
+                        <p>
+                            <strong>DIFFICULTY:</strong> Expert
+                            <br>
+                            <br>
+                            <strong>LENGTH:</strong> 10 Miles
+                            <br>
+                            <br>
+                            <strong>COST:</strong> $50/person
+                            <br>
+                            <br>
+                            <strong>LOCATION:</strong> North of Bozeman Mountain
+                        </p>
+                        <br>
+                        <p>
+                            Want some extreme mountain biking? The Rocky Mountain is a great deal for you. Join us as we take you at the top of the mountain and witness the beautiful scenery of Bozeman and some nearby towns, and enjoy the thrilling trail as we go down the mountain.
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <div id="tour2">
+                <div class="tourInfo2">
+                    <h2>DOWN HILL SANDY DUSTY DRIFT</h2>
+                    <img src="images/bikedust.jpeg" alt="biker drifting on dust">
+                    <section class="tourDetails2">
+                        <p>
+                            <strong>Difficulty:</strong> Professional
+                             <br>
+                            <br>
+                            <strong>LENGTH:</strong> 7 Miles
+                            <br>
+                            <br>
+                            <strong>COST:</strong> $39/person
+                            <br>
+                            <br>
+                            <strong>LOCATION:</strong> South of Bozeman hill
+                        </p>
+                        <br>
+                        <p>
+                            Tired drifiting with your car? Why not try drifiting  with your bike? Join us as we take you to the top of the hill and enjoy the view of the forest. Then enjoy yourself as we drift down the hill with a heart pumping experience that will give you some adrenaline.
+                        </p>
+                    </section>
+                </div>
+            </div>
+            <div id="tour3">
+                <div class="tourInfo3">
+                    <h2>NATURE RIDE</h2>
+                    <img src="images/cyclistview.jpeg" alt="cycslist over looking bozeman">
+                    <section class="tourDetails3">
+                        <p>
+                            <strong>DIFFICULTY:</strong> Novice
+                            <br>
+                            <br>
+                            <strong>LENGTH:</strong> 4 Miles
+                            <br>
+                            <br>
+                            <strong>COST:</strong> $25/person
+                            <br>
+                            <br>
+                            <strong>LOCATION:</strong> Bozeman Hill Trails
+                        </p>
+                        <br>
+                        <p>
+                            In this tour we welcome everyone who loves the nature. Here we help someone who is new in biking. We have some professional bikers who will guide you conquer the trail and gain more experience while enjoying the view of nature. 
+                        </p>
+                    </section>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="upperFooter">
+                <p>The Mountain Spoke</p>
+                <p>3950 Valley Commons Drive | Bozeman, MT 517895</p>
+                <p>09266258633 | mahonrinotarte@gmail.com</p>
+            </div>
+        </footer>
+        <div class="lowerFooter">&copy;2018 | All Rights Reserved | The Mountain Spoke | 
+                <span id="currentdate"></span>
+        </div>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

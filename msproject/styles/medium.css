@@ -1,0 +1,209 @@
+@media only screen and (min-width: 37.5em) {
+    
+    header img {
+        width: auto;
+    }
+    
+    nav button { 
+        display:none; 
+    }  
+    
+    nav ul.hide {
+        display: flex;
+    }
+    
+    
+    nav ul {
+        display: flex;
+    }
+    
+    nav ul li a {
+        font-size: 1.3rem;
+    }
+    
+    .hero-text h1 {
+        font-size: 60px;
+    }
+    
+    .toursPic {
+        display: flex;
+        flex-flow: row;
+    }
+    
+    .mtbikes {
+        display: flex;
+        flex-flow: row;
+    }
+    
+    .upperFooter {
+        font-size: 1rem;
+    }
+    
+    .lowerFooter {
+        font-size: 1rem;
+    }
+    
+    /*--------------TOUR STYLE---------------*/
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    .tours {
+        font-size: 1.5rem;
+    }
+    
+    .tourInfo h2{
+        font-size: 30px;
+    }
+    
+    .tourInfo2 h2 {
+        font-size: 30px;
+    }
+    
+    .tourInfo3 h2 {
+        font-size: 30px;
+    }
+    
+    tour1 {
+        display: flex;
+        flex-flow: row;
+   }
+    
+    #tours img {
+        padding-right: .5rem;
+        width: 500px;
+    }
+    
+    .tourDetails {
+        font-size: 20px;
+        padding: 3rem;
+    }
+    
+    .tourDetails2 {
+        font-size: 20px;
+         padding: 3rem;
+    }
+    
+    .tourDetails3 {
+        font-size: 20px;
+        padding: 3rem;
+        padding-bottom: 5rem;
+    }
+    
+    /*----------------EVENT STYLE------------------*/
+    
+    #events h1 {
+        font-size: 4rem;
+    }
+    .container ul {
+        display: grid;
+    }
+    .container .centered {
+        font-size: 30px;
+        padding: 5rem;
+    }
+    
+    .container .content {
+        font-size: 30px;
+        padding-top: 
+    }
+    
+    .container h1 {
+        font-size: 3rem;
+    }
+    
+    /*----------------FORM STYLE------------*/
+    
+    #heading h2{
+     font-size: 30px;
+   }
+    
+    form legend {
+        font-size: 30px;
+    }
+    
+    #formContainer {
+        font-size: 25px;
+    }
+    
+/*-----------CONTACT STYLE-------------*/
+    
+    
+    .map iframe {
+        width: 100%;
+    }
+    
+    .address {
+        font-size: 20px;
+    }
+
+/*----------SALES SYLE----------------*/
+    
+    #flip {
+        font-size: 30px;
+    }
+    
+    #panel {
+        font-size: 20px;
+    }
+    
+    #panel img {
+        width: 500px;
+        height: auto;
+    }
+    
+     #flip2 {
+        font-size: 30px;
+    }
+    
+    #panel2 {
+        font-size: 20px;
+    }
+    
+    #panel2 img {
+        width: 500px;
+        height: auto;
+    }
+    
+     #flip3 {
+        font-size: 30px;
+    }
+    
+    #panel3 {
+        font-size: 20px;
+    }
+    
+    #panel3 img {
+        width: 500px;
+        height: auto;
+    }
+    
+     #flip4 {
+        font-size: 30px;
+    }
+    
+    #panel4 {
+        font-size: 20px;
+    }
+    
+    #panel4 img {
+        width: 500px;
+        height: auto;
+    }
+    
+    /*------------SERVICE STYLE------------*/
+    
+    #tableContainer {
+        display: flex;
+        flex-flow: row;
+    }
+    
+    table th {
+        font-size: 25px;
+    }
+    
+    table td {
+        font-size: 20px;
+    }
+    

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Mountain Spoke</title>
+        <meta name="author" content="Jehn Mahonri Notarte">
+        <meta name="description" content="Final Project for CIT 230: Web Frontend Development at BYU Idaho.">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        <header>
+            <a href="mountainspoke.html">
+                 <img src="images/mountain-spoke-logo.png" alt="moutain spoke logo and trademarks">
+            </a>
+        <nav>
+            <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+            <ul id="primaryNavigation" class="hide">
+                <li>
+                    <a href="tours.html">Tours</a>
+                </li>
+                <li class="active">
+                    <a href="#">Events</a>
+                </li>
+                <li>
+                    <a href="sales.html">Sales</a>
+                </li>
+                <li>
+                    <a href="service.html">Services</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <div id="events">
+                <h1>CYCLE THE CONTINENTAL DIVIDE</h1>
+            </div>
+            <div class="container">
+                <div class="centered">
+                    <h1>AUGUST 15th - 17th, 2018</h1>
+                    <p>
+                        The event will start at exactly 10am at the valley of Black Mountain through Richmond's twin peak. Here are the checkpoints of the races:
+                    </p>
+                    <ul>
+                        <li>Green Valley</li>
+                        <li>Aurora Rocky Hill</li>
+                        <li>Rocky Mountain</li>
+                        <li>Grand Valley Mountain</li>
+                        <li>Aura Peak</li>
+                    </ul>
+                    <p>All participants must wear proper gear. They will be given a GPS so we can track each participants during the race.</p>
+                    <br>
+                    <a href="registration.html">
+                    <button>Register Now</button>
+                    </a>
+                </div>
+                <div class="content">
+                    <h3>UP COMING EVENTS</h3>
+                    <ul>
+                        <li>X Games September 10th-20th</li>
+                        <li>Rocky Mountain Race November 5th</li>
+                        <li>Exhibition Match at Aura Peaks December 10th</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="upperFooter">
+                <p>The Mountain Spoke</p>
+                <p>3950 Valley Commons Drive | Bozeman, MT 517895</p>
+                <p>09266258633 | mahonrinotarte@gmail.com</p>
+            </div>
+        </footer>
+        <div class="lowerFooter">&copy;2018 | All Rights Reserved | The Mountain Spoke | 
+                <span id="currentdate"></span>
+        </div>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

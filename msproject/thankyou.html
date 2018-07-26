@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Mountain Spoke</title>
+        <meta name="author" content="Jehn Mahonri Notarte">
+        <meta name="description" content="Final Project for CIT 230: Web Frontend Development at BYU Idaho.">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        <header>
+            <a href="#home">
+                 <img src="images/mountain-spoke-logo.png" alt="moutain spoke logo and trademarks">
+            </a>
+        <nav>
+            <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+            <ul id="primaryNavigation" class="hide">
+                <li>
+                    <a href="#tours">Tours</a>
+                </li>
+                <li>
+                    <a href="#events">Events</a>
+                </li>
+                <li>
+                    <a href="#sales">Sales</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+                <li>
+                    <a href="#contacts">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <div class="thanks">
+            <h1>Thank You!!</h1>
+            <h2>For visiting our site. We will send you an e-mail within 24 hours. If you have additional questions or request, call us at 09266258633. Have a wonderful day. </h2>
+            <br>
+        </div>
+        <footer>
+            <div class="upperFooter">
+                <p>The Mountain Spoke</p>
+                <p>3950 Valley Commons Drive | Bozeman, MT 517895</p>
+                <p>09266258633 | mahonrinotarte@gmail.com</p>
+            </div>
+        </footer>
+        <div class="lowerFooter">&copy;2018 | All Rights Reserved | The Mountain Spoke | 
+                <span id="currentdate"></span>
+        </div>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>

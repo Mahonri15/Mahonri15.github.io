@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>The Mountain Spoke</title>
+        <meta name="author" content="Jehn Mahonri Notarte">
+        <meta name="description" content="Final Project for CIT 230: Web Frontend Development at BYU Idaho.">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/large.css">
+    </head>
+    <body>
+        <header>
+            <a href="mountainspoke.html">
+                 <img src="images/mountain-spoke-logo.png" alt="moutain spoke logo and trademarks">
+            </a>
+        <nav>
+            <button class="hamburger" onclick="toggleHam()">&#9776;</button>
+            <ul id="primaryNavigation" class="hide">
+                <li>
+                    <a href="tours.html">Tours</a>
+                </li>
+                <li>
+                    <a href="events.html">Events</a>
+                </li>
+                <li>
+                    <a href="sales.html">Sales</a>
+                </li>
+                <li>
+                    <a href="service.html">Services</a>
+                </li>
+                <li>
+                    <a href="contactus.html">Contact Us</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+        <main>
+            <form method="get" action="thankyou.html">
+                <div id="heading">
+                    <h1>CYCLE THE CONTINENTAL DIVIDE</h1>
+                    <h2>Registration Form</h2>
+                    <div id="formContainer">
+                        <fieldset>
+                            <legend>Rider Information</legend>
+                            <label class="top">First Name*
+                                <input type="text" name="fname" required pattern="{A-Za-z}{5,}">
+                            </label>
+                            <label class="top">Last Name*
+                                <input type="text" name="lname" required>
+                            </label>
+                            <label class="top">Birthday*
+                                <input type="date" name="date" required>
+                            </label>
+                            <div>
+                                <label class="sbs">Gender
+                                <input type="radio" name="gender" value="male">Male
+                                <input type="radio" name="gender" value="female">Female
+                                </label>
+                            </div>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Contact Information</legend>
+                            <label class="top">Address*
+                                <input type="text" name="address" required>
+                            </label>
+                            <label class="top">City*
+                                <input type="text" name="citu" required>
+                            </label>
+                            <label class="top">State
+                                <input type="text" name="state" pattern="[A-Z]{2,2}" placeholder="SD">
+                            </label>
+                            <label class="top">Phone Number
+                                <input type="tel" name="phone" placeholder="0926-625-8633">
+                            </label>
+                            <label class="top">E-mail*
+                                <input type="email" name="email" required placeholder="someone@gmail.com">
+                            </label>
+                        </fieldset>
+                        <fieldset>
+                            <legend>Misc. Information</legend>
+                            <label class="sbs">T-Shirt Style*
+                                <input type="radio" name="tshirt" required> Men
+                                <input type="radio" name="tshirt" required> Women
+                            </label>
+                            <label class="sbs">T-shirt Style Size*
+                                <input type="radio" name="size" required> XS
+                                <input type="radio" name="size" required> S
+                                <input type="radio" name="size" required> M
+                                <input type="radio" name="size" required> L
+                                <input type="radio" name="size" required> XL
+                                <input type="radio" name="size" required> XXL
+                            </label>
+                            <label class="top">Request/Comments
+                                <textarea></textarea>
+                            </label>
+                        </fieldset>
+                        <input type="submit" value="send registration form" class="submitBtn">
+                    </div>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <div class="upperFooter">
+                <p>The Mountain Spoke</p>
+                <p>3950 Valley Commons Drive | Bozeman, MT 517895</p>
+                <p>09266258633 | mahonrinotarte@gmail.com</p>
+            </div>
+        </footer>
+        <div class="lowerFooter">&copy;2018 | All Rights Reserved | The Mountain Spoke | 
+                <span id="currentdate"></span>
+        </div>
+        <script src="scripts/currentdate.js"></script>
+        <script src="scripts/hamburger.js"></script>
+    </body>
+</html>
